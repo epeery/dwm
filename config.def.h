@@ -14,8 +14,8 @@ static const char col_gray4[]       = "#F1F1F1";
 static const char col_cyan[]        = "#20BBFC";
 static const char *colors[][3]      = {
   /*               fg         bg         border   */
-  [SchemeNorm] = { col_gray1, col_gray3, col_gray2 },
-  [SchemeSel]  = { col_gray4, col_gray4,  col_cyan  },
+  [SchemeNorm] = { col_gray2, col_gray3, col_gray2 },
+  [SchemeSel]  = { col_gray1, col_gray4,  col_cyan  },
 };
 
 /* tagging */
