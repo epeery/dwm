@@ -28,7 +28,7 @@ static const Rule rules[] = {
    */
   /* class      instance    title       tags mask     isfloating   monitor */
   { "Firefox",  NULL,       NULL,       2,            0,           -1 },
-  { "Spotify",  "spotify",  "Spotify",  9,            0,           -1 },
+  { NULL,       NULL,       "Spotify",  9,            0,           -1 },
 };
 
 /* layout(s) */
