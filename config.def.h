@@ -67,7 +67,7 @@ static Key keys[] = {
   { MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
   { MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
   { MODKEY|ShiftMask,             XK_w,      spawn,          {.v = browser } },
-  { MODKEY,                       XK_r,      spawn,          SHCMD("xst -title ranger -e ranger") },
+  { MODKEY,                       XK_r,      spawn,          SHCMD("xst -t ranger -e ranger") },
   { MODKEY,                       XK_b,      togglebar,      {0} },
   { MODKEY,                       XK_s,      swapfocus,     {0} },
   { MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
