@@ -106,7 +106,7 @@ static Key keys[] = {
   TAGKEYS(                        XK_7,                      6)
   TAGKEYS(                        XK_8,                      7)
   TAGKEYS(                        XK_9,                      8)
-  { MODKEY|ShiftMask,             XK_F2,      spawn,         SHCMD("prompt 'Kill DWM?' 'killall dwm'") },
+  { MODKEY,                       XK_F2,     spawn,          SHCMD("prompt 'Kill DWM?' 'killall dwm'") },
   { MODKEY,                       XK_F4,     spawn,          SHCMD("prompt 'Hibernate?' 'sudo -A systemctl suspend'") },
 };
 
