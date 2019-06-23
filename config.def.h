@@ -106,8 +106,8 @@ static Key keys[] = {
   TAGKEYS(                        XK_7,                      6)
   TAGKEYS(                        XK_8,                      7)
   TAGKEYS(                        XK_9,                      8)
-  { MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-  { MODKEY,                       XK_F5,     spawn,          SHCMD("xst -t ranger -e ranger") },
+  { MODKEY|ShiftMask,             XK_q,      spawn,          SHCMD("prompt 'Kill DWM?' 'killall dwm'") },
+  { MODKEY,                       XK_F5,     spawn,          SHCMD("prompt 'Hibernate?' 'sudo -A systemctl suspend'") },
 };
 
 /* button definitions */
