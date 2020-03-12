@@ -18,3 +18,4 @@ stdenv.mkDerivation {
     mkdir -p "$out/bin"
     cp ./dwm "$out/bin/"
   '';
+}
