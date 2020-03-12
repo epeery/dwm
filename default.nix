@@ -17,6 +17,4 @@ stdenv.mkDerivation {
   installPhase = ''
     mkdir -p "$out/bin"
     cp ./dwm "$out/bin/"
-    mv "$out/bin/dwm" "$out/bin/dwm-custom"
   '';
-}
